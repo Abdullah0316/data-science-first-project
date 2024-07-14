@@ -1,0 +1,38 @@
+Project _1
+
+
+Introduction of Dataset: This Dataset contain the records of financial information which determine the  eligibility of individuals or organizations to get the loan from institute. It includes features such as cibil score, income, employment status, loan term, loan amount, assets value, and loan status. This dataset is commonly used in machine learning and data analysis to develop models and algorithms that predict the likelihood of loan approval based on the given features.
+
+Data Cleaning:   To train model  firstly need to clean the data. Steps of cleaning dataset such as.
+ 1.	load dataset:  using pandas library .
+ 2.	Handle Missing Value:  using mean strategy missing values are handled in data set if it have missing value , but in this data set missin value not found.
+ 3.	Outlier detect: outlier detect through IQR method and handle using mean strategy.
+ 4.	EDA : this approach highlight the presence of outlier by using box plot visualization and then it make us easy to handle, histogram shows the frequency of distribution of numeric values and box plot clear view of categorical distribution using this approach in this project it make easy to analyse key features or distribution. 
+histogram of dataset:
+ 
+Exploratory Data Analysis (EDA)
+ 1.	Descriptive Statistics:
+o	Key observations included mean, standard deviation, min, and max values for features such as income_annum, loan_amount, cibil_score, and various asset values.
+o	High correlation (0.93) observed between loan_amount and income_annum, indicating a strong relationship.
+ 
+ 2.	Outlier Detection:
+o	No outliers detected in income_annum and loan_amount using both box plots and the IQR method.
+ 
+
+
+ 
+
+CORRELATION GRAPH
+Correlation matrix Is used here to see the relation between features whether the relation is positive or negative or have no relation.
+
+ 
+# Data preparation and split
+ 
+ 
+ 
+model evaluation graph:
+ 
+
+
+
+
